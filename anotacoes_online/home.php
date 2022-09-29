@@ -11,7 +11,7 @@
 		<h1>Bem-Vindo(a) <?= $_SESSION['nome'];?></h1>
 		<a href="criar_anotacao.php">fazer anotação</a>
 		<br>
-		<a>ver anotações</a>
+		<a href="mostrar_anotacoes.php">ver anotações</a>
 		<br>
 		<a href="logoff.php">sair</a>
 		<?if(array_key_exists('status',$_GET))
