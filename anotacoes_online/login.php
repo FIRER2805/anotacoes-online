@@ -3,7 +3,7 @@ session_start();
 $_SESSION['logado'] = false;
 
 // abre o arquivo
-$arquivo = fopen('cadastros.txt','r');
+$arquivo = fopen('../../anotações_online_scripts/cadastros.txt','r');
 $autenticado = false;
 
 // enquanto o arquivo tiver linhas para percorrer

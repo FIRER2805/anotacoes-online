@@ -12,12 +12,12 @@
 			e-mail:
 			<input type="form" name="e-mail">
 			senha:
-			<input type="form" name="senha">
+			<input type="password" name="senha">
 			<button type="submit">Fazer Login</button>
 		</form>
 
 		<!-- botão para cadastro -->
-		<a href="cadastrar-se.php" target="_blank">Cadastrar-se</a>
+		<a href="cadastrar-se.php">Cadastrar-se</a>
 		<?php
 		// se houver erro, ira informar uma mensagem personalizada
 		if(array_key_exists('erro',$_GET))

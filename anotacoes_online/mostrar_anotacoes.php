@@ -9,7 +9,7 @@
 	<body>
 		<?php
 		// abre o arquivo
-		$arquivo = fopen('anotacoes.txt', 'r');
+		$arquivo = fopen('../../anotações_online_scripts/anotacoes.txt', 'r');
 
 		// percorre o arquivo enquanto tiver linha
 		while(!feof($arquivo))
