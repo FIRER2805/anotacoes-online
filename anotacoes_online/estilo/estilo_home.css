@@ -1,0 +1,37 @@
+/* cores utilizadas no projeto:
+letras - (24, 147, 214)
+*/
+a
+{
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	width: 450px;
+}
+.conteudo
+{
+	width: 1000px;
+	margin: 10px auto;
+	border: solid rgb(24, 147, 214) 1px;
+	border-radius: 20px;
+}
+.logo
+{
+	text-align: center;
+	color: white;
+	padding: 30px;
+	background-color: rgb(24, 147, 214);
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	font-size: 50px;
+	font-weight: normal;
+}
+#botao_sair
+{
+	width: 935px;
+	margin: 10px 30px;
+}
+p
+{
+	padding: 0 20px;
+}

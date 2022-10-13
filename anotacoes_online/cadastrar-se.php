@@ -20,10 +20,10 @@
 					<input type="form" name="e-mail_cadastro" class ="input_texto">
 					<div class="texto">senha:</div>
 					<input type="form" name="senha_cadastro" class ="input_texto">
-					<button type="submit" class="btn btn-outline-primary">Cadastrar-se</button>
+					<button type="submit" class="btn btn-outline-primary btn-lg">Cadastrar-se</button>
 				</form>
 				<div class="botao_voltar">
-					<a class="btn btn-outline-danger" href="index.php">voltar</a>
+					<a class="btn btn-outline-danger btn-lg" href="index.php">voltar</a>
 				</div>
 		</div>
 	</body>

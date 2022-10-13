@@ -20,13 +20,13 @@
 				<div class="texto">senha:</div>
 				<input type="password" name="senha">
 				<div class="btn-group">
-					<button type="submit" class="btn btn-outline-primary">Fazer Login</button>
+					<button type="submit" class="btn btn-outline-primary btn-lg">Fazer Login</button>
 				</div>
 			</form>
 
 			<!-- botão para cadastro -->
 			<div class="botao">
-				<a href="cadastrar-se.php" class="btn btn-outline-primary">Cadastrar-se</a>
+				<a href="cadastrar-se.php" class="btn btn-outline-primary btn-lg">Cadastrar-se</a>
 			</div>
 		<?php
 		// se houver erro, ira informar uma mensagem personalizada
