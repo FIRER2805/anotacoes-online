@@ -1,6 +1,10 @@
 /* cores utilizadas no projeto:
 letras - (24, 147, 214)
 */
+body
+{
+	background-color: rgb(195, 223, 230);
+}
 a
 {
 	margin-top: 10px;
@@ -14,6 +18,7 @@ a
 	margin: 10px auto;
 	border: solid rgb(24, 147, 214) 1px;
 	border-radius: 20px;
+	background-color: white;
 }
 .logo
 {
@@ -34,4 +39,45 @@ a
 p
 {
 	padding: 0 20px;
+}
+.anotacao
+{
+	width: 400px;
+	height: 200px;
+	margin: 10px 20px;
+	border: solid rgb(24, 147, 214) 1px;
+	border-radius: 20px;
+	background-color: white;
+	float: left;
+}
+.titulo
+{
+	color: rgb(24, 147, 214);
+	text-align: center;
+	border-bottom: dashed rgb(24, 147, 214) 2px;
+	padding-bottom: 5px;
+}
+.descricao
+{
+	font-size: 25px;
+	margin: 0 10px 10px 10px;
+}
+.break
+{
+	clear: both;
+}
+#botao_sair_anotacoes
+{
+	width: 390px;
+	margin-bottom: 20px;
+}
+.anotacoes
+{
+	margin: auto;
+	width: 885px;
+}
+#botao_voltar_criar_anotacao
+{
+	width: 100px;
+	margin: 0 10px 10px 10px;
 }

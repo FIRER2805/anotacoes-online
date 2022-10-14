@@ -1,6 +1,10 @@
 /* cores utilizadas no projeto:
 letras - (24, 147, 214)
 */
+body
+{
+	background-color: rgb(195, 223, 230);
+}
 .conteudo
 {
 	width: 1000px;
@@ -8,6 +12,7 @@ letras - (24, 147, 214)
 	margin-top: 10px;
 	border: solid rgb(24, 147, 214) 1px;
 	border-radius: 20px;
+	background-color: white;
 }
 .formulario
 {
@@ -29,10 +34,6 @@ form
 	margin-top: 10px;
 	color: rgb(24, 147, 214);
 	font-size: 20px;
-}
-body
-{
-	background-color: white;
 }
 h1.logo
 {
